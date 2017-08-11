@@ -1,5 +1,9 @@
 import React from 'react';
-import { render } from 'react-dom';
-import Title from './Component';
 
-render(<Title />, document.querySelector('[data-js="app"]'))
+const App = React.createClass({
+  render: function() {
+    return <h1>Juliane Albuquerque</h1>
+  }
+})
+
+export default App;
